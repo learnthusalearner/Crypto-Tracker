@@ -58,9 +58,7 @@ function Header() {
           <Button text={"dashboard"} />
         </a>
       </div>
-      <div className="drawer-component">
-        <TemporaryDrawer />
-      </div>
+
     </div>
   );
 }

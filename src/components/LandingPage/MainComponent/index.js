@@ -47,7 +47,7 @@ function MainComponent() {
           </a>
           <RWebShare
             data={{
-              text: "CryptoDashboard made by Avi Vashishta using React JS.",
+              text: "CryptoDashboard made by Kunal_Srivastava using React JS.",
               url: "https://crypto-dashboard-jan.netlify.app",
               title: "CryptoTracker.",
             }}
@@ -57,6 +57,7 @@ function MainComponent() {
           </RWebShare>
         </motion.div>
       </div>
+{/* Floating iPhone Mockup Moves up and down continuously -- Mirror repeat creates smooth oscillation -- Infinite loop for ambient motion */}
       <div className="gradient-div">
         <img src={gradient} className="gradient" />
         <motion.img

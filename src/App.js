@@ -25,7 +25,7 @@ function App() {
   useEffect(() => {
     cursor = document.getElementById("cursor");
     cursorPointer = document.getElementById("cursor-pointer");
-
+// mousemove,mousedown,mouseup are all event listeners or say predefined functions in dom
     document.body.addEventListener("mousemove", function (e) {
       return (
         (cursor.style.left = e.clientX + "px"),
@@ -34,7 +34,7 @@ function App() {
         (cursorPointer.style.top = e.clientY + "px")
       );
     });
-
+//when click animation of mouse here is named as mousedown and mouseup
     document.body.addEventListener("mousedown", function (e) {
       return (
         (cursor.style.height = "0.5rem"),
